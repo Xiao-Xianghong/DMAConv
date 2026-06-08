@@ -3,8 +3,8 @@ DMAConv: Dual Mask-Adaptive Convolution for Remote Sensing Pansharpening
 
 ## Clone this repository
 ```bash
-git clone https://github.com/Xiao-Xianghong/GPT-2.git
-cd GPT-2
+git clone https://github.com/Xiao-Xianghong/DMAConv.git
+cd DMAConv
 ```
 
 ## Environment and dependence
