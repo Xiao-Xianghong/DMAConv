@@ -37,14 +37,7 @@ bash ./build.sh
 '''
 
 ## Dataset
-We use the Tiny Shakespeare dataset, a widely used and well-established dataset for language modeling tasks.
-
-## Training Details
-The batch size is set to 4 due to GPU memory constraints (NVIDIA GeForce RTX 4060 Laptop GPU with 8GB VRAM).
-
-If you have access to a GPU with larger memory, increasing the batch size may help accelerate training.
-
-The model is trained for 500 epochs, and checkpoints are saved every 250 epochs.
+The training and test datasets used in this model are from the public dataset ''PanCollection'', which can be downloaded from the following URL: https://liangjiandeng.github.io/PanCollection.html
 
 ## Start training！
 ```bash
