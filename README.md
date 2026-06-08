@@ -10,8 +10,8 @@ cd DMAConv
 ## Environment and dependence
 You're supposed to use a conda virtual environment. 
 
-- Python 3.10
-- PyTorch 2.5.1
+- Python 3.10 with dev
+- PyTorch 2.5.1 + cu118
 - CUDA 13.1
 
 Install PyTorch according to your CUDA version:
