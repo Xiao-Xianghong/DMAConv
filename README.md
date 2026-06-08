@@ -22,6 +22,20 @@ run this code in bash to install dependences (include torch==2.5.1)
 pip install -r requirements.txt
 ```
 
+## Install PWAC
+Pixel-Wise Adaptive Convolution is needed in this project
+
+Before installing, please make sure that CMake (version 3.26 or later) and Ninja are installed on your system and properly configured in your environment variables.
+
+'''bash
+conda activate yourenv
+git clone https://github.com/src-d/kmcuda
+cd src
+cmake -DCMAKE_BUILD_TYPE=Release . && make
+cd ..
+bash ./build.sh
+'''
+
 ## Dataset
 We use the Tiny Shakespeare dataset, a widely used and well-established dataset for language modeling tasks.
 
