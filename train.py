@@ -7,8 +7,8 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.autograd import Variable
 from torch.utils.data import DataLoader
-from .data import Dataset_Pro
-from .canconv.layers.MAConv_UNet_model15_fix import MANet
+from data import Dataset_Pro
+from DMAConv_UNet import MANet
 import numpy as np
 import h5py
 import shutil
