@@ -1,6 +1,8 @@
 # DMAConv
 DMAConv: Dual Mask-Adaptive Convolution for Remote Sensing Pansharpening
 
+This is a preliminary code release that mainly includes the core implementation of our method. The training pipeline and file organization are still being refined. A cleaner and more complete version with detailed instructions will be released in future updates.
+
 ## Clone this repository
 ```bash
 git clone https://github.com/Xiao-Xianghong/DMAConv.git
